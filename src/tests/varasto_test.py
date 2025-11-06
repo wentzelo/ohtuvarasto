@@ -19,7 +19,7 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.saldo, 8)
 
     def test_lisays_lisaa_pienentaa_vapaata_tilaa(self):
-        self.varasto.lisaa_varastoon(8)
+        self.varasto.lisaa_varastoon(800)
 
         # vapaata tilaa pitäisi vielä olla tilavuus-lisättävä määrä eli 2
         self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 2)
