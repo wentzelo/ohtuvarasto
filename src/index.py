@@ -13,7 +13,6 @@ def tulosta_olut_getterit(olutta):
     print(f"tilavuus = {olutta.tilavuus}")
     print(f"paljonko_mahtuu = {olutta.paljonko_mahtuu()}")
 
-
 def kasittele_mehu(mehua):
     print("Mehu setterit:")
     print("Lisätään 50.7")
